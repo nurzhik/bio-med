@@ -399,6 +399,7 @@ body {
   border-bottom: 1px solid #dde2e6;
   color: #7c7c7c;
   font-size: 14px;
+  overflow: hidden;
 }
 .news-item:last-child {
   border-bottom: none;
@@ -417,6 +418,10 @@ body {
 }
 .news-item__text {
   overflow: hidden;
+}
+.news-list.second-page {
+  border: 1px solid #dde2e6;
+  margin-bottom: 35px;
 }
 .news-head {
   font-weight: bold;
@@ -694,4 +699,26 @@ body {
   right: 42px;
   top: 0;
   background-color: #eeeeee;
+}
+.contact-info {
+  padding: 20px;
+  width: 40.5%;
+  border: 1px solid #dde2e6;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 22px;
+  display: inline-block;
+  float: left;
+  background-color: #fff;
+}
+.map {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #dde2e6;
+  width: 57%;
+  background-color: #fff;
 }
