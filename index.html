@@ -33,7 +33,7 @@
 						<img src="img/logo.png" alt="">
 					</a>
 					<div class="header-right">
-						<a href="" class="header-button">
+						<a href="#modal1" class="header-button open_modal">
 							ЗАПРОС НА ЛЕЧЕНИЕ
 						</a>
 						<div class="header-right__text">
@@ -140,40 +140,55 @@
 						<li>
 							<a href="" class="strani-item ">
 								<img src="img/corea.jpg" alt="">	
-								<div class="strani-item__name corea">
+								<div class="strani-item__name ">
 									Лечение в Корее
+									<div class="flag">
+										<img src="img/corea-flag.jpg" alt="">
+									</div>
 								</div>
 							</a>
 						</li>
 						<li>
 							<a href="" class="strani-item">
 								<img src="img/germania.jpg" alt="">	
-								<div class="strani-item__name germania">
-									Лечение в Корее
+								<div class="strani-item__name ">
+									Лечение в Германии
+									<div class="flag">
+										<img src="img/germania-flag.png" alt="">
+									</div>
 								</div>
 							</a>
 						</li>
 						<li>
 							<a href="" class="strani-item">
 								<img src="img/turcia.jpg" alt="">	
-								<div class="strani-item__name turcia">
+								<div class="strani-item__name ">
 									Лечение в Турции
+									<div class="flag">
+										<img src="img/turcia-flag.png" alt="">
+									</div>
 								</div>
 							</a>
 						</li>
 						<li>
 							<a href="" class="strani-item">
 								<img src="img/japan.jpg" alt="">	
-								<div class="strani-item__name japan">
+								<div class="strani-item__name ">
 									Лечение в Японии
+									<div class="flag">
+										<img src="img/japan-flag.png" alt="">
+									</div>
 								</div>
 							</a>
 						</li>
 						<li>
 							<a href="" class="strani-item">
-								<img src="img/korea.jpg" alt="">	
-								<div class="strani-item__name korea">
-									Лечение в Корее
+								<img src="img/izrail.jpg" alt="">	
+								<div class="strani-item__name ">
+									Лечение в Израиле
+									<div class="flag">
+										<img src="img/izrail-flag.png" alt="">
+									</div>
 								</div>
 							</a>
 						</li>
@@ -632,7 +647,65 @@
 
 			</div>
 		</div>
-	</div>		
+	</div>	
+	<div id="modal1" class="modal_div"> <!-- скрытый див с уникальным id = modal1 -->
+	<span class="modal_close"></span>
+		<div class="modal-title">отправить запрос на лечение ?</div>
+
+		<form class="" action="" method="post" accept-charset="utf-8">
+			<div class="form-modal">
+				 <div class="modal-input__container "> 
+				 		<label for="">имя фамилия:</label>
+					    <input type="text" name="" required="required" placeholder="ИМЯ ФАМИЛИЯ" class="modal-input ">
+				 </div>    
+				 <div class="modal-input__container "> 
+				 		<label for="">ваш e-mail:</label>
+					    <input type="text" name="" required="required" placeholder="ВАШ E-MAIL" class="modal-input ">
+				 </div>
+				 <div class="modal-input__container "> 
+				 		<label for="">номер телефона:</label>
+					    <input type="text" name="" required="required" placeholder="НОМЕР ТЕЛЕФОНА:" class="modal-input ">
+				 </div>   
+				 <div class="modal-input__container "> 
+				 		<label for="">направление:</label>
+				 		<div class="select-container">
+						    <select class="modal-select">
+						    	<option value="">Онкология</option>
+						    	<option value="">Онкология2</option>
+						    </select>
+					    </div>
+				 </div>  
+				  <div class="modal-input__container "> 
+				 		<label for="">ваш пол:</label>
+				 		<div class="select-container">
+						    <select class="modal-select">
+						    	<option value="">Женский</option>
+						    	<option value="">Мужской</option>
+						    </select>
+					    </div>
+				 </div>
+				  <div class="modal-input__container "> 
+				 		<label for="">страна:</label>
+				 		<div class="select-container">
+						    <select class="modal-select">
+						    	<option value="">Корея</option>
+						    	<option value="">Корея2</option>
+						    </select>
+					    </div>
+				 </div> 
+				  <div class="modal-textarea__container "> 
+				 		<label for="">сообщение:</label>
+					    <textarea name="" >СООБЩЕНИЕ</textarea>
+				 </div>   
+			</div> 
+				 <div class="modal-button-container">
+				 	<button class="modal-button">
+				 		отправить запрос
+				 	</button>
+				 </div>
+		</form>
+	</div>	
+		<div id="overlay"></div>
 	<footer class="footer">
 		<div class="cr">
 			<div class="copyright">
