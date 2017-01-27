@@ -209,7 +209,7 @@
     border: 2px solid #fff;
 }
 
-.reviews-slider.slick-initialized.slick-slider {
+.reviews-container{
     margin-right: -15px;
     margin-bottom: 35px;
     padding-bottom: 42px
